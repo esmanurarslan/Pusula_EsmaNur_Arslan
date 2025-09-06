@@ -62,7 +62,21 @@ The project followed a structured pipeline to transform the raw data into a mach
         * **BERT Embeddings & HDBSCAN**: An advanced NLP approach was used for `TedaviAdi` to group semantically similar treatments.
 
 ---
+## 4. How to Run the Code
 
- **Dependencies**:
-  *Key libraries include: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `transformers`, `hdbscan`.*
+1.  **Clone the Repository**:
+    ```bash
+    git clone [https://github.com/esmanurarslan/Pusula_EsmaNur_Arslan.git](https://github.com/esmanurarslan/Pusula_EsmaNur_Arslan.git)
+    cd Pusula_EsmaNur_Arslan
+    ```
 
+2.  **Install Dependencies**:
+    It is recommended to use a virtual environment. The required libraries are listed in `requirements.txt`.
+    ```bash
+    pip install -r requirements.txt
+    ```
+    *Key libraries include: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `transformers`, `hdbscan`,`torch`.*
+
+3.  **Run the Notebook**:
+    * Place the dataset file `Talent_Academy_Case_DT_2025.xlsx` in the root directory of the project.
+    * Open and run the Jupyter Notebook `case-study3.ipynb`.
